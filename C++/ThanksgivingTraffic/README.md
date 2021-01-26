@@ -65,13 +65,15 @@ solution 함수에서는 로그 데이터 lines 배열에 대해 초당 최대 �
  - std, vector, string
 ### 정의
 #### define
-  - Hour_to_sec   
-    시간에서 초로 변경시 사용하는 상수 값
-  - Min_to_sec   
-    분에서 초로 변경시 사용하는 상수 값
+  - HourToMsec   
+    hour에서 ms로 변경시 사용하는 상수 값
+  - MinToMsec   
+    minute에서 ms로 변경시 사용하는 상수 값
+  - SecToMsec   
+    sec에서 ms로 변경시 사용하는 상수 값
 #### struct
   - LogTimeValueStruct
-    입력되는 로그 시간 값을 저장하기 위한 구조체
+    로그 트래픽을 계산하기 위한 시작시간과 종료시간을 저장할 수 있는 구조체
 ### 함수
   - TransferTimeStringToInt(string time, LogTimeValueStruct& stTime)
     문자열로 입력되는 로그 시간 값을 stTime에 변환하여 넣어주는 함수
