@@ -1,6 +1,5 @@
 # ThanksgivingTraffic
-
-## Explanation
+## description
 ### 추석 트래픽
 이번 추석에도 시스템 장애가 없는 명절을 보내고 싶은 어피치는 서버를 증설해야 할지 고민이다. 장애 대비용 서버 증설 여부를 결정하기 위해 작년 추석 기간인 9월 15일 로그 데이터를 분석한 후 초당 최대 처리량을 계산해보기로 했다. 초당 최대 처리량은 요청의 응답 완료 여부에 관계없이 임의 시간부터 1초(=1,000밀리초)간 처리하는 요청의 최대 개수를 의미한다.
 ### 입력 형식
@@ -60,3 +59,24 @@ solution 함수에서는 로그 데이터 lines 배열에 대해 초당 최대 �
 
 ## Codetest Url
   - [here](<https://programmers.co.kr/learn/courses/30/lessons/17676>)
+  
+## Explanation
+### 필요 지식
+ - std, vector, string
+### 정의
+#### define
+  - Hour_to_sec   
+    시간에서 초로 변경시 사용하는 상수 값
+  - Min_to_sec   
+    분에서 초로 변경시 사용하는 상수 값
+#### struct
+  - LogTimeValueStruct
+    입력되는 로그 시간 값을 저장하기 위한 구조체
+### 함수
+  - TransferTimeStringToInt(string time, LogTimeValueStruct& stTime)
+    문자열로 입력되는 로그 시간 값을 stTime에 변환하여 넣어주는 함수
+  - solution(vector<string> lines)
+    입력되는 로그 시간 값들을 구조체 배열에 저장하고 시작 시간과 종료 시간을 찾아   
+    최대 트래픽의 값이 얼마인지 구해주는 함수
+  - main(void)
+    로그데이터를 입력하고 soulution 함수를 실행하여 최대 트래픽 값을 확인할 수 있는 
