@@ -17,20 +17,18 @@ struct LogTimeValueStruct
 
 void TransferTimeStringToInt(string time, LogTimeValueStruct& stTime)
 {
-	int hourPos = time.find(':', 0);
-	int minPos = time.find(':', hourPos + 1);
-	int secPos = time.find(' ', minPos + 1);
+	int year, month, day, hour, min, sec, msec;
+	double processingTime;
 
-	int msecValue = HourToMsec * stoi(time.substr(hourPos - 2, 2));
-	msecValue += MinToMsec * stoi(time.substr(minPos - 2, 2));
-	msecValue += SecToMsec * stod(time.substr(secPos - 6, 6));
+	sscanf_s(time.c_str(), "%d-%d-%d %d:%d:%d.%d %lfs", &year, &month, &day, &hour, &min, &sec, &msec, &processingTime);
 
-
-	string tmp = time.substr(24);
-	tmp.pop_back();
+	int msecValue = HourToMsec * hour;
+	msecValue += MinToMsec * min;
+	msecValue += SecToMsec * sec;
+	msecValue += msec;
 
 	stTime.EndTime = msecValue;
-	stTime.StartTime = msecValue - (stod(tmp) * SecToMsec) + 1;
+	stTime.StartTime = msecValue - (processingTime * SecToMsec) + 1;
 
 	return;
 }
