@@ -44,4 +44,6 @@ solution 함수에서는 로그 데이터 lines 배열에 대해 초당 최대 �
   - solution(vector<int> numbers)
     더하기, 정렬, 중복 제거를 수행하는 함수.
   - main(void)
-    데이터를 입력하고 soulution 함수를 실행하는 함수
+    데이터를 입력하고 soulution 함수를 실행하는 함수     
+### Algorithm
+  
