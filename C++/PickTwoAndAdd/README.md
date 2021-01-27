@@ -46,4 +46,63 @@ solution 함수에서는 로그 데이터 lines 배열에 대해 초당 최대 �
   - main(void)
     데이터를 입력하고 soulution 함수를 실행하는 함수     
 ### Algorithm
+#### sort
+##### Fuction
+  오름차순을 기본으로 정렬하며 내림차순이 필요할 경우 'greater<T>'를 이용한다. 
+```C++
+  template <class _RanIt, class _Pr>
+_CONSTEXPR20 void sort(const _RanIt _First, const _RanIt _Last, _Pr _Pred) { // order [_First, _Last)
+    _Adl_verify_range(_First, _Last);
+    const auto _UFirst = _Get_unwrapped(_First);
+    const auto _ULast  = _Get_unwrapped(_Last);
+    _Sort_unchecked(_UFirst, _ULast, _ULast - _UFirst, _Pass_fn(_Pred));
+}
+
+template <class _RanIt>
+_CONSTEXPR20 void sort(const _RanIt _First, const _RanIt _Last) { // order [_First, _Last)
+    _STD sort(_First, _Last, less<>{});
+```
+#### unique
+##### Function
+  앞, 뒤의 값을 비교하기 때문에 정렬을 한 후에 사용하여야 하며, 중복된 값을 삭제후 변경되지 않은 값은 유지된 상태에서   
+  자신이 바꾼 vector의 end()을 반환합니다.
+```C++
+  // FUNCTION TEMPLATE unique
+template <class _FwdIt, class _Pr>
+_NODISCARD _CONSTEXPR20 _FwdIt unique(_FwdIt _First, _FwdIt _Last, _Pr _Pred) {
+    // remove each satisfying _Pred with previous
+    _Adl_verify_range(_First, _Last);
+    auto _UFirst      = _Get_unwrapped(_First);
+    const auto _ULast = _Get_unwrapped(_Last);
+    if (_UFirst != _ULast) {
+        for (auto _UFirstb = _UFirst; ++_UFirst != _ULast; _UFirstb = _UFirst) {
+            if (_Pred(*_UFirstb, *_UFirst)) { // copy down
+                while (++_UFirst != _ULast) {
+                    if (!_Pred(*_UFirstb, *_UFirst)) {
+                        *++_UFirstb = _STD move(*_UFirst);
+                    }
+                }
+
+                _Seek_wrapped(_Last, ++_UFirstb);
+                return _Last;
+            }
+        }
+    }
+
+    _Seek_wrapped(_Last, _ULast);
+    return _Last;
+}
+
+template <class _FwdIt>
+_NODISCARD _CONSTEXPR20 _FwdIt unique(_FwdIt _First, _FwdIt _Last) { // remove each matching previous
+    return _STD unique(_First, _Last, equal_to<>{});
+}
+```
+##### Etc
+  - 중복된 값 삭제
+  unique 함수를 이용하여 중복제거 후 변경되지 않은 부분을 vector.end()를 이용하여 삭제할 수 있습니다.
+  ```C++
+  vector.erase(unique(vector.begin(), vector.end()), vector.end());
+  ```
+
   
