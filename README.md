@@ -3,7 +3,7 @@
 해당 코딩 테스트는 [PROGRAMMERS](<https://programmers.co.kr/>)에서 가져왔습니다.
 
 ## Level 1
-### >[PickTwoAndAdd](<https://github.com/foryourself83/CodeTest/blob/main/C++/PickTwoAndAdd/README.md#picktwoandadd>)
+### [PickTwoAndAdd](<https://github.com/foryourself83/CodeTest/blob/main/C++/PickTwoAndAdd/README.md#picktwoandadd>)
 
 ## Level 3
-### >[ThanksgivingTraffic](<https://github.com/foryourself83/CodeTest/tree/main/C%2B%2B/ThanksgivingTraffic#thanksgivingtraffic>)
+### [ThanksgivingTraffic](<https://github.com/foryourself83/CodeTest/tree/main/C%2B%2B/ThanksgivingTraffic#thanksgivingtraffic>)
