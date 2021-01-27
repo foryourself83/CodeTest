@@ -39,23 +39,9 @@ solution 함수에서는 로그 데이터 lines 배열에 대해 초당 최대 �
   
 ## Explanation
 ### 필요 지식
- - std, vector, string
-### 정의
-#### define
-  - HourToMsec   
-    hour에서 ms로 변경시 사용하는 상수 값
-  - MinToMsec   
-    minute에서 ms로 변경시 사용하는 상수 값
-  - SecToMsec   
-    sec에서 ms로 변경시 사용하는 상수 값
-#### struct
-  - LogTimeValueStruct
-    로그 트래픽을 계산하기 위한 시작시간과 종료시간을 저장할 수 있는 구조체
-### 함수
-  - TransferTimeStringToInt(string time, LogTimeValueStruct& stTime)
-    문자열로 입력되는 로그 시간 값을 stTime에 변환하여 넣어주는 함수
-  - solution(vector<string> lines)
-    입력되는 로그 시간 값들을 구조체 배열에 저장하고 시작 시간과 종료 시간을 찾아   
-    최대 트래픽의 값이 얼마인지 구해주는 함수
+ - std, vector, algorithm
+### 함수  
+  - solution(vector<int> numbers)
+    더하기, 정렬, 중복 제거를 수행하는 함수.
   - main(void)
-    로그데이터를 입력하고 soulution 함수를 실행하여 최대 트래픽 값을 확인할 수 있는 함수
+    데이터를 입력하고 soulution 함수를 실행하는 함수
