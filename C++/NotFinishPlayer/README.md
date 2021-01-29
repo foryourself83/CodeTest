@@ -10,7 +10,7 @@
   - 참가자 중에는 동명이인이 있을 수 있습니다.
 ### 입출력 예
 |participant|completion|return|
-|:---:|:---:|  
+|:---:|:---:|:---:|
 |"leo", "kiki", "eden"|"eden", "kiki"|"leo"|
 |"marina", "josipa", "nikola", "vinko", "filipa"|"marina", "nikola", "vinko", "filipa"|"josipa"|
 |"mislav", "stanko", "mislav", "ana"|"stanko", "mislav", "ana"|"mislav"|
