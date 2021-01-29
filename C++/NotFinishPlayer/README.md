@@ -38,6 +38,6 @@ participant|completion|return
   - main(void)
     데이터를 입력하고 soulution 함수를 실행하는 함수     
 ### 팁
-  - `unordered_map`(Hash Table)을 사용하는 이유는 알고리즘의 차이로 데이터가 N 개일 때 `map`은 O(logN)의 탐색 속도를, `unordered_map`은 O(1)의 탐색 속도를 갖기 때문입니다.
-    - `map': Red-Black Tree, 오름차순 정렬 
-    - `unordered_map`: hash table, 미정렬
+  - `unordered_map`과 `map`의 차이
+    - `map': Red-Black Tree, 오름차순 정렬, O(logN)의 탐색 속도
+    - `unordered_map`: hash table, 미정렬, O(1)의 탐색 속도
