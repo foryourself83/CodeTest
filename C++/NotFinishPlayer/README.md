@@ -39,5 +39,5 @@ participant|completion|return
     데이터를 입력하고 soulution 함수를 실행하는 함수     
 ### 팁
   - `unordered_map`과 `map`의 차이
-    - `map': Red-Black Tree, 오름차순 정렬, O(logN)의 탐색 속도
+    - `map`: Red-Black Tree, 오름차순 정렬, O(logN)의 탐색 속도
     - `unordered_map`: hash table, 미정렬, O(1)의 탐색 속도
