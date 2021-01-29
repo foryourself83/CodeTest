@@ -8,7 +8,7 @@
 > VisualStudio 2019
 > C++ / Console
 ### Level 1
-#### [PickTwoAndAdd](<https://github.com/foryourself83/CodeTest/blob/main/C++/PickTwoAndAdd/README.md#picktwoandadd>)
+#### [PickTwoAndAdd](<https://github.com/foryourself83/CodeTest/tree/main/C%2B%2B/PickTwoAndAdd#picktwoandadd>)
 > vector<int>의 값들을 더하여 정렬 및 중복을 제거한 vertor<int>를 구하는 문제
 
 #### [NotFinishPlayer](<https://github.com/foryourself83/CodeTest/tree/main/C%2B%2B/NotFinishPlayer#notfinishplayer>)
