@@ -34,7 +34,7 @@ participant|completion|return
  - std, vector, Hash
 ### 함수  
   - solution(vector<string> participant, vector<string> completion)
-    `nordered_map`을 이용하여 완주하지 못한 선수를 찾아내는 함수
+    `unordered_map`을 이용하여 완주하지 못한 선수를 찾아내는 함수
   - main(void)
     데이터를 입력하고 soulution 함수를 실행하는 함수     
 ### 팁
