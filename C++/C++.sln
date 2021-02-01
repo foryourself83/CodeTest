@@ -9,6 +9,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PickTwoAndAdd", "PickTwoAnd
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "NotFinishPlayer", "NotFinishPlayer\NotFinishPlayer.vcxproj", "{08BE6A65-C41A-474C-A9B5-1529C2DA405F}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Phone_book", "Phone_book\Phone_book.vcxproj", "{B9D030E4-7F80-4683-B65F-628BF6BA634F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -41,6 +43,14 @@ Global
 		{08BE6A65-C41A-474C-A9B5-1529C2DA405F}.Release|x64.Build.0 = Release|x64
 		{08BE6A65-C41A-474C-A9B5-1529C2DA405F}.Release|x86.ActiveCfg = Release|Win32
 		{08BE6A65-C41A-474C-A9B5-1529C2DA405F}.Release|x86.Build.0 = Release|Win32
+		{B9D030E4-7F80-4683-B65F-628BF6BA634F}.Debug|x64.ActiveCfg = Debug|x64
+		{B9D030E4-7F80-4683-B65F-628BF6BA634F}.Debug|x64.Build.0 = Debug|x64
+		{B9D030E4-7F80-4683-B65F-628BF6BA634F}.Debug|x86.ActiveCfg = Debug|Win32
+		{B9D030E4-7F80-4683-B65F-628BF6BA634F}.Debug|x86.Build.0 = Debug|Win32
+		{B9D030E4-7F80-4683-B65F-628BF6BA634F}.Release|x64.ActiveCfg = Release|x64
+		{B9D030E4-7F80-4683-B65F-628BF6BA634F}.Release|x64.Build.0 = Release|x64
+		{B9D030E4-7F80-4683-B65F-628BF6BA634F}.Release|x86.ActiveCfg = Release|Win32
+		{B9D030E4-7F80-4683-B65F-628BF6BA634F}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
