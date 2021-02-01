@@ -13,6 +13,10 @@
 
 #### [NotFinishPlayer](<https://github.com/foryourself83/CodeTest/tree/main/C%2B%2B/NotFinishPlayer#notfinishplayer>)
 > hash를 이용하여 완주하지 못한 선수를 구하는 문제
+
+### Level 2
+#### [Phone_book](<https://github.com/foryourself83/CodeTest/blob/main/C++/Phone_book/README.md#phone_book>)
+> hash를 이용하여 전화번호부에 접두어 여부를 확인하는 문제(풀이는 hash를 사용하지 않음)
   
 ### Level 3
 #### [ThanksgivingTraffic](<https://github.com/foryourself83/CodeTest/tree/main/C%2B%2B/ThanksgivingTraffic#thanksgivingtraffic>)
