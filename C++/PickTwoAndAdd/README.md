@@ -48,7 +48,7 @@ solution 함수에서는 로그 데이터 lines 배열에 대해 초당 최대 �
 ### Algorithm
 #### sort
 ##### Fuction
-  오름차순으로 정렬하며 내림차순이 필요할 경우 greater를 이용한다. 
+  오름차순으로 정렬하며 내림차순이 필요할 경우 greater<자료형>()를 이용한다. 
 ```C++
   template <class _RanIt, class _Pr>
 _CONSTEXPR20 void sort(const _RanIt _First, const _RanIt _Last, _Pr _Pred) { // order [_First, _Last)
