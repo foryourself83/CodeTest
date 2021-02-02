@@ -17,6 +17,8 @@
 ### Level 2
 #### [Phone_book](<https://github.com/foryourself83/CodeTest/tree/main/C%2B%2B/Phone_book#phone_book>)
 > hash를 이용하여 전화번호부에 접두어 여부를 확인하는 문제(풀이는 hash를 사용하지 않음)
+#### [Camouflage](<https://github.com/foryourself83/CodeTest/tree/main/C%2B%2B/Camouflage#camouflage>)
+> hash를 이용하여 스파이의 위장할 옷의 갯수를 구하는 문제
   
 ### Level 3
 #### [ThanksgivingTraffic](<https://github.com/foryourself83/CodeTest/tree/main/C%2B%2B/ThanksgivingTraffic#thanksgivingtraffic>)
