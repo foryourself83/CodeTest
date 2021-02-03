@@ -6,7 +6,7 @@
 ## C++
 ### 개발 환경
 > VisualStudio 2019
-> C++ / Console
+> ISO C++ 14 STD / Console
 ## Hash
 ### Level 1
 #### [NotFinishPlayer](<https://github.com/foryourself83/CodeTest/tree/main/C%2B%2B/NotFinishPlayer#notfinishplayer>)
