@@ -7,10 +7,8 @@
 ### 개발 환경
 > VisualStudio 2019
 > C++ / Console
+### 해시
 ### Level 1
-#### [PickTwoAndAdd](<https://github.com/foryourself83/CodeTest/tree/main/C%2B%2B/PickTwoAndAdd#picktwoandadd>)
-> vector<int>의 값들을 더하여 정렬 및 중복을 제거한 vertor<int>를 구하는 문제
-
 #### [NotFinishPlayer](<https://github.com/foryourself83/CodeTest/tree/main/C%2B%2B/NotFinishPlayer#notfinishplayer>)
 > hash를 이용하여 완주하지 못한 선수를 구하는 문제
 
@@ -19,6 +17,11 @@
 > hash를 이용하여 전화번호부에 접두어 여부를 확인하는 문제(풀이는 hash를 사용하지 않음)
 #### [Camouflage](<https://github.com/foryourself83/CodeTest/tree/main/C%2B%2B/Camouflage#camouflage>)
 > hash를 이용하여 스파이의 위장할 옷의 갯수를 구하는 문제
+  
+### 기타
+### Level 1
+#### [PickTwoAndAdd](<https://github.com/foryourself83/CodeTest/tree/main/C%2B%2B/PickTwoAndAdd#picktwoandadd>)
+> vector<int>의 값들을 더하여 정렬 및 중복을 제거한 vertor<int>를 구하는 문제
   
 ### Level 3
 #### [ThanksgivingTraffic](<https://github.com/foryourself83/CodeTest/tree/main/C%2B%2B/ThanksgivingTraffic#thanksgivingtraffic>)
