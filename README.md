@@ -26,3 +26,6 @@
 ### Level 3
 #### [ThanksgivingTraffic](<https://github.com/foryourself83/CodeTest/tree/main/C%2B%2B/ThanksgivingTraffic#thanksgivingtraffic>)
 > vector<string>의 로그데이터들의 1초간 중복되는 최대 값을 구하여 최대 트래픽을 구하는 문제
+
+
+TDB...
